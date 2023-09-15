@@ -11,8 +11,8 @@
         "type-check": "vue-tsc --noEmit --skipLibCheck"
     },
     "dependencies": {
+        "@muenchen/appswitcher-vue": "^1.0.0",
         "core-js": "^3.23.5",
-        "itm-appswitcher-vue": "^1.1.1-beta.1",
         "moment": "^2.29.4",
         "pinia": "^2.0.30",
         "typeface-roboto": "^1.1.13",
