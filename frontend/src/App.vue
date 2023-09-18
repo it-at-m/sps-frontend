@@ -24,7 +24,7 @@
                 @keyup.enter="search"
             />
             <v-spacer />
-            <itm-appswitcher
+            <appswitcher
                 v-if="appswitcherBaseUrl"
                 :uri="appswitcherBaseUrl"
                 :tags="['global']"
