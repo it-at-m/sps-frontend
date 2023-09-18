@@ -80,7 +80,7 @@
 
 <script setup lang="ts">
   import TheSnackbar from "@/components/TheSnackbar.vue";
-  import ItmAppswitcher from "@muenchen/appswitcher-vue";
+  import { Appswitcher } from "@muenchen/appswitcher-vue";
   import InfoService from "@/api/InfoService";
   import User from "@/types/User";
   import UserService from "@/api/UserService";
