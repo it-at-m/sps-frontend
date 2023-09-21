@@ -55,7 +55,7 @@ spring:
         registration:
           keycloak:
             client-id: beispielprojekt
-            client-secret: d5f89cfc-43a3-43e5-abdb-4a2cc48ee417
+            client-secret: 12345
 
   mvc:
     log-request-details: on
