@@ -51,11 +51,11 @@ spring:
       client:
         provider:
           keycloak:
-            issuer-uri: https://www.muenchen.de/auth/realms/${spring.realm}
+            issuer-uri: https://sso.muenchen.de/auth/realms/${spring.realm}
         registration:
           keycloak:
             client-id: beispielprojekt
-            client-secret: 12342
+            client-secret: 12345
 
   mvc:
     log-request-details: on

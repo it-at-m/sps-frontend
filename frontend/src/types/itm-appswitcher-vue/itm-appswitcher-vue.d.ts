@@ -1,1 +1,1 @@
-declare module "itm-appswitcher-vue";
+declare module "@muenchen/appswitcher-vue";

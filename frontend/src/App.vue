@@ -24,7 +24,7 @@
                 @keyup.enter="search"
             />
             <v-spacer />
-            <itm-appswitcher
+            <appswitcher
                 v-if="appswitcherBaseUrl"
                 :uri="appswitcherBaseUrl"
                 :tags="['global']"
@@ -80,7 +80,7 @@
 
 <script setup lang="ts">
   import TheSnackbar from "@/components/TheSnackbar.vue";
-  import ItmAppswitcher from "itm-appswitcher-vue";
+  import { Appswitcher } from "@muenchen/appswitcher-vue";
   import InfoService from "@/api/InfoService";
   import User from "@/types/User";
   import UserService from "@/api/UserService";
