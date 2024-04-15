@@ -18,10 +18,6 @@ jobs:
     steps:
       # Checkout source code, set up Java, etc. Then...
 
-      - name: Configure Git User
-        run: |
-          git config user.email "actions@github.com"
-          git config user.name "GitHub Actions"
 
       - name: Maven Release
         run: mvn release:prepare release:perform -B -s .maven_settings.xml -DreleaseVersion=${{ github.event.inputs.releaseVersion }} -DdevelopmentVersion=${{ github.event.inputs.developmentVersion }}
