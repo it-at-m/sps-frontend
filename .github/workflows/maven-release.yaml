@@ -17,7 +17,8 @@ jobs:
 
     steps:
       # Checkout source code, set up Java, etc. Then...
-
+      - name: Checkout code
+        uses: actions/checkout@v4
 
       - name: Maven Release
         run: mvn release:prepare release:perform -B  -DreleaseVersion=${{ github.event.inputs.releaseVersion }} -DdevelopmentVersion=${{ github.event.inputs.developmentVersion }}
