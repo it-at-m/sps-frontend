@@ -12,7 +12,7 @@
 
     <groupId>de.muenchen.beispielprojekt</groupId>
     <artifactId>beispielprojekt-frontend</artifactId>
-    <version>1.0.5</version>
+    <version>1.0.5-SNAPSHOT</version>
     <packaging>pom</packaging>
     <name>beispielprojekt_frontend</name>
 
