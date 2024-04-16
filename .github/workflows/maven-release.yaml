@@ -29,6 +29,6 @@ jobs:
         run: |
            git config --global user.email "github-actions@github.com"
            git config --global user.name "GitHub Actions"
-           mvn release:prepare release:perform -B  -Dpassword=${GITLAB_ACCESS_TOKEN_PW}  -DreleaseVersion=${{ github.event.inputs.releaseVersion }} -DdevelopmentVersion=${{ github.event.inputs.developmentVersion }}
+           mvn release:prepare  -B  -Dpassword=${GITLAB_ACCESS_TOKEN_PW}  -DreleaseVersion=${{ github.event.inputs.releaseVersion }} -DdevelopmentVersion=${{ github.event.inputs.developmentVersion }}
         env:
            GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
