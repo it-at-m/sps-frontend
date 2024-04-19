@@ -5,4 +5,4 @@
 
 FROM registry.access.redhat.com/ubi9/openjdk-17-runtime:latest
 
-COPY target/*.jar /deployments/application.jar
+COPY apigateway/target/*.jar /deployments/application.jar
