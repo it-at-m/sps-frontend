@@ -7,7 +7,7 @@ on: # defining on which triggers this action should run
   push:
   
 jobs:
-  build-maven:
+  build-node:
     runs-on: ubuntu-latest
     defaults:
       run:
