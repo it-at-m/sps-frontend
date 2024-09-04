@@ -9,6 +9,9 @@ on: # defining on which triggers this action should run
 jobs:
   build-maven:
     runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: ${{ env.npm-path }}
     steps:
       - uses: actions/checkout@v4
       - name: Setup Node
